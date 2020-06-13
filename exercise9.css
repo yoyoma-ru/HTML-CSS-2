@@ -1,0 +1,16 @@
+*{
+
+}
+.position{
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+i{
+/*	position: absolute;
+	top: 100px;
+	right: 40px;*/
+	font-size: 32px;
+	padding: 0 20px;
+	display: inline-block;
+}
