@@ -27,11 +27,13 @@ main{
 .image1{
 	width: 280px;
 	height: 150px;
-	margin: 10px 10px 0;
+	margin: 10px auto 0;
 	background-image: url(img4/flow01.png);
-	background-size: 280px;
+	background-size: cover;
+	background-position: bottom;
 }
 .main-texts{
+	margin: 0 auto;
 	padding: 10px;
 }
 
@@ -44,14 +46,47 @@ main{
 .image2{
 	width: 280px;
 	height: 150px;
-	margin: 10px 10px 0;
+	margin: 10px auto 0;
 	background-image: url(img4/flow02.png);
-	background-size: 280px;
+	background-size: cover;
+	background-position: bottom;
 }
 .image3{
 	width: 280px;
 	height: 150px;
-	margin: 10px 10px 0;
+	margin: 10px auto 0;
 	background-image: url(img4/flow03.png);
-	background-size: 280px;
+	background-size: cover;
+	background-position: bottom;
+}
+
+@media screen and (max-width: 768px){
+	main{
+		width: 90%;
+		/*padding: 0 10px;*/
+	}
+	.main-contents{
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.main-contents-center{
+		float: none;
+		width: 90%;
+		margin: 20px auto;
+	}
+	.image1{
+		width: 95%;
+	}
+	.image2{
+		width: 95%;
+	}
+	.image3{
+		width: 95%;
+	}
+	.main-texts{
+		width: 100%;
+		/*padding: 0;*/
+		/*margin: 0 10px 10px 10px;*/
+	}
 }
